@@ -32,14 +32,19 @@ $(function () {
 
     // TODO 2 - Create Platforms
    
-    createPlatform(100, 650, 150, 50, "lightyellow" )
+    createPlatform(100, 650, 150, 50, "lightpink" )
     createPlatform(350, 550, 150, 50, "lightyellow")
-    createPlatform( 750, 150,550 ,50)
+    createPlatform(900, 300, 300,50, "lightyellow")
+    createPlatform(600, 450, 150, 50, "lightpink")
+    createPlatform(1200, 200, 50, 150, "lightpink")
+    createPlatform(800, 350, 300, 50, "white")
+    createPlatform(900, 100, 200, 50, "white")
 
 
 
 
     // TODO 3 - Create Collectables
+    createCollectable("diamond", 900, 60, 0.5, 0.7 )
 
 
 
